@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+dist/
+*.log
+src/redux/*
+src/components/*
+public/*.html
+README.md
+package-lock.json
