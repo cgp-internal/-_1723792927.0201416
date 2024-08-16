@@ -1,0 +1,33 @@
+{
+  "name": "react-redux-spa",
+  "version": "1.0.0",
+  "description": "Project metadata, dependecies and scripts",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.3.0",
+    "redux": "^4.1.1"
+  },
+  "devDependencies": {
+    "react-scripts": "^4.0.3"
+  },
+  "exports": {
+    "./src/components": {
+      "App": "./src/components/App.js",
+      "Home": "./src/components/Home.js",
+      "LiveReports": "./src/components/LiveReports.js",
+      "About": "./src/components/About.js",
+      "CoinsContainer": "./src/components/CoinsContainer.js"
+    },
+    "./src/redux": {
+      "reducers": "./src/redux/reducers/index.js"
+    }
+  },
+  "main": "src/index.js"
+}
